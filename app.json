@@ -1,0 +1,53 @@
+{ 
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goos_detail/index",
+    "pages/cart/index"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "购物商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home-0.png",
+        "selectedIconPath": "icons/home.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "icons/person-0.png",
+        "selectedIconPath": "icons/person.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "购物车",
+        "iconPath": "icons/person-0.png",
+        "selectedIconPath": "icons/person.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "我的",
+        "iconPath": "icons/person-0.png",
+        "selectedIconPath": "icons/person.png"
+      }
+    ]
+  },
+  
+    
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
